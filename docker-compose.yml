@@ -1,0 +1,10 @@
+version: "3.8"
+
+services:
+  app:
+    build: .
+    image: docker.domain.com/backend-step212-python:v1.0.1
+    platform: linux/amd64
+    ports:
+      - "8001:8001"
+

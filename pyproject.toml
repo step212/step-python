@@ -1,0 +1,20 @@
+[project]
+name = "fastapi-structure"
+version = "0.1.0"
+description = "Python project using FastAPI"
+requires-python = "==3.12.10"
+
+dependencies = [
+    "fastapi[standard]==0.115.12",
+    "pydantic==2.11.5",
+    "pydantic-settings==2.9.1",
+    "uvicorn==0.34.3",
+    "sqlalchemy==2.0.38",
+    "pymysql==1.1.0",
+    "cryptography==42.0.5",
+    "python-dotenv==1.0.1",
+    "sqlmodel==0.0.16",
+    "openai-agents>=0.0.17",
+]
+
+packages = ["app"] 
